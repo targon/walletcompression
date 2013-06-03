@@ -1,6 +1,13 @@
 walletcompression -- A tool to save Bitcoin transaction fees
 ============================================================
 
+Usage.
+
+1) Terminate your GUI wallet
+2) Make sure bitcoind is installed ("sudo apt-get install bitcoind")
+3) Run the tool: "./walletcompression.py"
+4) Follow the instruction on the screen
+
 FAQ.
 
 Q. Why should I compress my Bitcoin wallet?
