@@ -1,0 +1,35 @@
+walletcompression -- A tool to save Bitcoin transaction fees
+============================================================
+
+FAQ.
+
+Q. Why should I compress my Bitcoin wallet?
+A. Your Bitcoin wallet contains individual coins. They can be larger or smaller in
+size. If you have too many small coins (e.g. from faucets), the generated transactions
+will be larger and consequently require higher transaction fees.
+
+Q. How can this tool help?
+A. This tool combines small coins from your wallet into larger coins, thus decreasing 
+the need to pey transaction fees.
+
+Q. How do I use it?
+A. You need Python and bitcoind installed. Quit your GUI Bitcoin wallet, then start this 
+tool on the command line: ./walletcompression.py
+It will display the proposed transactions and wait for your confirmation.
+
+Q. Will I need to pay transaction fees for using this tool?
+A. No the tool does not include fees in the transaction. It tries to combine coins in such 
+a way that the transactions will eventually confirm without a fee.
+
+Q. How fast will my coins be compressed?
+A. The tool only needs a second, however it can be quite a while before the generated 
+transactions confirm. Potentially this can take a day or longer depending on the age
+and coin sizes in your wallet. Before the transactions are sent, the amount of Bitcoins
+that will be temporarily unavailable are displayed so you can take an informed decision.
+
+Q. Is it save? Will it send my coins to other people?
+A. The tool is open source, so you can (and should) check yourself!
+
+Q. This is great! How can I help?
+A. Please send your donation to 12c8P6JeReV3HGtLg91jwh6vXET9LuZ1aq .
+
